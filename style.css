@@ -14,7 +14,7 @@ main h1 {
 .activities {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10rem;
+  gap: 4rem;
 }
 .activities span {
   margin-right: 4rem;
@@ -26,15 +26,35 @@ main h1 {
   margin-left: 6rem;
   padding: 2rem;
 }
-.bold {
-  font-weight: bold;
+
+#bold {
+  font-weight: bolder;
+}
+#italic {
+  font-family: italic;
+}
+#underline {
+  text-decoration: underline;
 }
 
 .underline {
   text-decoration: underline;
 }
+.text-style img {
+  width: 4rem;
+  height: 2rem;
+}
+.align-center {
+  text-align: center;
+}
+.align-right {
+  text-align: right;
+}
+.align-left {
+  text-align: left;
+}
 .active {
-  color: rgb(73, 73, 83);
-  padding: 0.5rem 0.6rem;
+  color: rgb(193, 193, 220);
+  padding: 0.5rem 0.9rem;
   background-color: rgb(97, 97, 192);
 }
